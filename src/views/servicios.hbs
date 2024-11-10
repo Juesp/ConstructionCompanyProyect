@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Misión y Visión</title>
+    <link rel="stylesheet" href="/css/styles.css"> <!-- Asegúrate de tener los estilos enlazados -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+        <!-- views/quienes-somos.handlebars -->
+    <section class="servicios">
+        <div class="container">
+            <h1 class="section-title">SERVICIOS</h1>
+            <div class="info-box-servicios">
+                <p><strong>CONSTRUCCIONES OMARO S.A.S.</strong> Se especializa en servicios de:</p>
+                <p>-Construcción, rehabilitación y mantenimiento de vías urbanas y rurales. <br>-Construcción, adecuación, remodelación y mantenimiento de oficinas. <br>
+                -Construcción redes externas e internas de Gas domiciliario e industrial. <br>-Fabricación de estructuras metálicas y Servicio taller metalmecánico. <br>
+                -Construcción, adecuación y mantenimiento de parques biosaludables, temáticos y escenarios deportivos.</p>
+            </div>
+        </div>
+        <div class="container mt-5"></div>
+            <h2 class="title-toggle text-center mx-auto" onclick="toggleImages()">OBRAS EN PARQUES BIOSALUDABLES, TEMÁTICOS Y ESCENARIOS DEPORTIVOS.</h2>
+            <div id="imagesContainer" class="row images-container mt-3 collapse">
+                <div class="col-4 d-flex justify-content-center mb-3">
+                    <img src="/img/servicios1.jpg" class="img-fluid rounded" alt="Imagen principal">
+                </div>
+                <div class="col-4 d-flex justify-content-center mb-3">
+                    <img src="/img/servicios2.jpg" class="img-fluid rounded" alt="Imagen secundaria 1">
+                </div>
+                <div class="col-4 d-flex justify-content-center mb-3">
+                    <img src="/img/servicios3.jpg" class="img-fluid rounded" alt="Imagen secundaria 2">
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-2"></div>
+            <h2 class="title-toggle text-center mx-auto" onclick="toggleImages2()">ESCENARIOS CULTURALES.</h2>
+            <div id="imagesContainer2" class="row images-container mt-3 collapse">
+                <div class="col-6 d-flex justify-content-center mb-3">
+                    <img src="/img/servicios4.jpg" class="img-fluid rounded" alt="Imagen principal">
+                </div>
+                <div class="col-6 d-flex justify-content-center mb-3">
+                    <img src="/img/servicios5.jpg" class="img-fluid rounded" alt="Imagen secundaria 1">
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-2"></div>
+            <h2 class="title-toggle text-center mx-auto" onclick="toggleImages3()">ADECUACION OFICINAS ESTATALES.</h2>
+            <div id="imagesContainer3" class="row images-container mt-3 collapse">
+                <div class="col-4 d-flex justify-content-center mb-3">
+                    <img src="/img/servicios6.jpg" class="img-fluid rounded" alt="Imagen principal 6">
+                </div>
+                <div class="col-4 d-flex justify-content-center mb-3">
+                    <img src="/img/servicios7.jpg" class="img-fluid rounded" alt="Imagen secundaria 7">
+                </div>
+                <div class="col-4 d-flex justify-content-center mb-3">
+                    <img src="/img/servicios8.jpg" class="img-fluid rounded" alt="Imagen secundaria 8">
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-2"></div>
+            <h2 class="title-toggle text-center mx-auto" onclick="toggleImages4()">REMODELACION DE OFICINAS.</h2>
+            <div id="imagesContainer4" class="row images-container mt-3 collapse">
+                <div class="col-4 d-flex justify-content-center mb-3">
+                    <img src="/img/servicios9.jpg" class="img-fluid rounded" alt="Imagen principal 9">
+                </div>
+                <div class="col-4 d-flex justify-content-center mb-3">
+                    <img src="/img/servicios10.jpg" class="img-fluid rounded" alt="Imagen secundaria 10">
+                </div>
+                <div class="col-4 d-flex justify-content-center mb-3">
+                    <img src="/img/servicios11.jpg" class="img-fluid rounded" alt="Imagen secundaria 11">
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-2"></div>
+            <h2 class="title-toggle text-center mx-auto" onclick="toggleImages5()">ADECUACION DE INSTITUCIONES EDUCATIVAS.</h2>
+            <div id="imagesContainer5" class="row images-container mt-3 collapse">
+                <div class="col-6 d-flex justify-content-center mb-3">
+                    <img src="/img/servicios12.jpg" class="img-fluid rounded" alt="Imagen principal 12">
+                </div>
+                <div class="col-6 d-flex justify-content-center mb-3">
+                    <img src="/img/servicios13.jpg" class="img-fluid rounded" alt="Imagen secundaria 13">
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-2"></div>
+            <h2 class="title-toggle text-center mx-auto" onclick="toggleImages6()">ESCENARIOS DEPORTIVOS.</h2>
+            <div id="imagesContainer6" class="row images-container mt-3 collapse">
+                <div class="col-6 d-flex justify-content-center mb-3">
+                    <img src="/img/servicios14.jpg" class="img-fluid rounded" alt="Imagen principal 14">
+                </div>
+                <div class="col-6 d-flex justify-content-center mb-3">
+                    <img src="/img/servicios15.jpg" class="img-fluid rounded" alt="Imagen secundaria 15">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function toggleImages() {
+            const container = document.getElementById('imagesContainer');
+            container.classList.toggle('collapse');
+        }
+
+        function toggleImages2() {
+            const container = document.getElementById('imagesContainer2');
+            container.classList.toggle('collapse');
+        }
+        function toggleImages3() {
+            const container = document.getElementById('imagesContainer3');
+            container.classList.toggle('collapse');
+        }
+        function toggleImages4() {
+            const container = document.getElementById('imagesContainer4');
+            container.classList.toggle('collapse');
+        }
+        function toggleImages5() {
+            const container = document.getElementById('imagesContainer5');
+            container.classList.toggle('collapse');
+        }
+        function toggleImages6() {
+            const container = document.getElementById('imagesContainer6');
+            container.classList.toggle('collapse');
+        }
+    </script>
+
+</body>
+</html>
+
+
+

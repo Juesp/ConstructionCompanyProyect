@@ -1,0 +1,295 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header p {
+    margin: 0;
+}
+
+nav {
+    margin-left: 20px;
+}
+
+.btnIndex {
+    color: #fff;
+    background-color: #37356c;
+}
+
+
+/* Header #e83338 Rojo -- #434D88 Azul */
+.Header {
+    background-color: #37356c !important;
+}
+
+.bg-danger {
+    background-color: #dc3545 !important;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.datosHeader {
+    color: white !important;
+}
+
+/* Imagenes */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo para la sección principal */
+/* Estilo para la sección principal */
+.main-background {
+    background-image: url('/img/Imagen1.png'); /* Cambia 'background.jpg' por el nombre de tu imagen */
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    width: 100vw; /* Ocupa todo el ancho de la ventana */
+    height: 70vh; /* Ocupa todo el alto de la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Color de texto */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra en el texto */
+    overflow: hidden; /* Evita que el contenido sobresalga */
+}
+
+/* Ajustes al contenedor para que ocupe el 100% del ancho */
+.main-background .container {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+
+/* Footer */
+footer {
+    background-color: #e83338;
+    color: white;
+}
+
+/* mision-vision*/
+.mission-vision-section {
+    padding: 40px 0;
+    background-color: #fff; /* Fondo blanco */
+}
+
+.mission-vision-section.vision-section {
+    background-color: #f0f0f0; /* Fondo gris claro para la sección de visión */
+}
+
+.mission h2, .vision h2 {
+    font-size: 3.3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.mission p, .vision p {
+    font-size: 1.3em;
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+}
+
+.mission-image img, .vision-image img {
+    width: 100%;
+    height: auto;
+}
+
+/* Asegurar que las imágenes ocupen el 50% y el texto el otro 50% */
+.mission-image, .vision-image {
+    padding: 0;
+}
+
+.mission, .vision {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+/*Quiénes Somos */
+.quienes-somos {
+    padding: 40px 0;
+    background-image: url('/img/Imagen9.png'); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* Hace que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+  }
+  
+  .section-title {
+    background-color: #e12c28;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .info-box {
+    background-color: #d6d6d6;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
+  .info-box strong {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* datos */
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #d6d6d6;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    gap: 15px;
+}
+
+.form-group input {
+    flex: 1;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    border-color: #007bff;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h1-datos  {
+    background-color: #e12c28;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+.btn-enviar {
+    padding: 15px 30px;
+    color: white;
+    background-color: #ffc107 !important;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.clientes {
+    padding: 40px 0;
+    background-image: url('/img/Imagen9.png'); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* Hace que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+  }
+
+  /* servicios */
+  .servicios, .datos, .contacto {
+    padding: 40px 0;
+    background-image: url('/img/Imagen9.png'); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* Hace que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+  }
+
+  .info-box-servicios {
+    background-color: #d6d6d6;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+
+.title-toggle {
+    background-color: #37356c;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-size: 30px;
+    margin: 0 auto;
+    text-align: justify;
+    margin-bottom: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+.images-container img {
+    max-width: 80%;
+    border-radius: 30px;
+}
+  /* contactos */
+
+.sub-title {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.gerencia-title {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+  /* media */
+@media (max-width: 600px) {
+    .form-group {
+        flex-direction: column;
+    }
+
+    .form-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
