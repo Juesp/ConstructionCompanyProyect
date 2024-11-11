@@ -9,6 +9,10 @@ app.get('/', (req, res) => {
     res.render('index');
 });
 
+app.get('/politicas', (req, res) => {
+    res.render('politicas');
+});
+
 app.get('/mision-vision', (req, res) => {
     res.render('mision-vision');
 });

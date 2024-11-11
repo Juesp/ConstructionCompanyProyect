@@ -41,7 +41,6 @@ nav {
 }
 
 /* Estilo para la sección principal */
-/* Estilo para la sección principal */
 .main-background {
     background-image: url('/img/Imagen1.png'); /* Cambia 'background.jpg' por el nombre de tu imagen */
     background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
@@ -259,6 +258,19 @@ input:focus, textarea:focus {
     cursor: pointer;
     text-align: center;
 }
+
+.sub-title-policy{
+    background-color: #37356c;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-size: 30px;
+    margin: 0 auto;
+    text-align: justify;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
 .images-container img {
     max-width: 80%;
     border-radius: 30px;
